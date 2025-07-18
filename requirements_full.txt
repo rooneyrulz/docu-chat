@@ -160,7 +160,7 @@ unstructured==0.15.0
 unstructured-client==0.25.8
 unstructured-inference==0.7.36
 unstructured.pytesseract==0.3.13
-urllib3==2.2.3
+urllib3==2.5.0
 watchdog==4.0.2
 wrapt==1.16.0
 yarl==1.11.1

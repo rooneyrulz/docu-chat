@@ -1,7 +1,7 @@
 python-dotenv
 faiss-cpu
 
-python-magic-bin # Needs to uninstall python-magic if it is installed already
+# python-magic-bin # Needs to uninstall python-magic if it is installed already
 libmagic
 
 streamlit==1.38.0

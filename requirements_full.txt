@@ -98,7 +98,7 @@ pillow==10.4.0
 pillow_heif==0.18.0
 portalocker==2.10.1
 proto-plus==1.24.0
-protobuf==5.28.1
+protobuf==5.29.5
 psutil==6.0.0
 pyarrow==17.0.0
 pyasn1==0.6.1

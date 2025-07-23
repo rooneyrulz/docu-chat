@@ -121,7 +121,7 @@ def create_conversational_chain(
             "The vector store must be initialized before creating the chain.")
 
     retriever = v_store.as_retriever()
-    llm = ChatGroq(model=model, temperature=temperature)
+    llm = ChatGroq(model=model, temperature=temperature, api_key=os.getenv("GROQ_API_KEY"))
     memory = ConversationBufferMemory(
         llm=llm,
         output_key="answer",

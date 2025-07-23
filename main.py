@@ -25,6 +25,8 @@ env_path = os.path.join(CWD, ENV_FILE_PATH)
 load_dotenv(dotenv_path=env_path)
 os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
+print(f"GROQ API KEY ---> {os.getenv("GROQ_API_KEY")}")
+
 # Initialize the session states
 for key, default_value in SESSION_STATES.items():
     if key not in st.session_state:

@@ -69,7 +69,7 @@ def load_embedding_model(model: str) -> HuggingFaceEmbeddings:
     Returns:
         HuggingFaceEmbeddings: The loaded embedding model.
     """
-    return HuggingFaceEmbeddings(model_name=model)
+    return HuggingFaceEmbeddings(model_name=model, api_key=os.getenv("HUGGINGFACEHUB_API_TOKEN"))
 
 def load_faiss_index(index: str, embedding: HuggingFaceEmbeddings) -> FAISS:
     return FAISS.load_local(index, embedding, allow_dangerous_deserialization=True)

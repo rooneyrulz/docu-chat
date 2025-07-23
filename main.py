@@ -24,8 +24,10 @@ os.makedirs(FAISS_INDEX_DIR, exist_ok=True)
 env_path = os.path.join(CWD, ENV_FILE_PATH)
 load_dotenv(dotenv_path=env_path)
 os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
 print(f"GROQ API KEY ---> {os.getenv("GROQ_API_KEY")}")
+print(f"HUGGINGFACEHUB API KEY ---> {os.getenv("HUGGINGFACEHUB_API_TOKEN")}")
 
 # Initialize the session states
 for key, default_value in SESSION_STATES.items():

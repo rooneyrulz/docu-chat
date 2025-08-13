@@ -110,7 +110,7 @@ pydantic_core==2.23.3
 pydeck==0.9.1
 Pygments==2.18.0
 pyparsing==3.1.4
-pypdf==4.3.1
+pypdf==6.0.0
 pypdfium2==4.30.0
 pyreadline3==3.5.2
 pytesseract==0.3.13

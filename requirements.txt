@@ -6,7 +6,7 @@ libmagic
 
 streamlit==1.38.0
 langchain-community==0.2.15
-langchain-text-splitters==0.2.2
+langchain-text-splitters==1.0.0a1
 langchain-huggingface==0.0.3
 langchain-groq==0.1.9
 unstructured==0.15.0

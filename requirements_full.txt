@@ -63,7 +63,7 @@ langchain-community==0.2.15
 langchain-core==0.2.40
 langchain-groq==0.1.9
 langchain-huggingface==0.0.3
-langchain-text-splitters==0.2.2
+langchain-text-splitters==0.3.9
 langdetect==1.0.9
 langsmith==0.1.121
 layoutparser==0.3.4

@@ -5,7 +5,7 @@ faiss-cpu
 libmagic
 
 streamlit==1.38.0
-langchain-community==0.2.15
+langchain-community==0.3.27
 langchain-text-splitters==0.2.2
 langchain-huggingface==0.0.3
 langchain-groq==0.1.9

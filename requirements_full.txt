@@ -59,7 +59,7 @@ jsonschema==4.23.0
 jsonschema-specifications==2023.12.1
 kiwisolver==1.4.7
 langchain==0.2.16
-langchain-community==0.2.15
+langchain-community==0.3.27
 langchain-core==0.2.40
 langchain-groq==0.1.9
 langchain-huggingface==0.0.3

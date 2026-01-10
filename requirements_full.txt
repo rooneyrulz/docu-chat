@@ -148,7 +148,7 @@ threadpoolctl==3.5.0
 timm==1.0.9
 tokenizers==0.19.1
 toml==0.10.2
-torch==2.4.1
+torch==2.7.1
 torchvision==0.19.1
 tornado==6.4.1
 tqdm==4.66.5
